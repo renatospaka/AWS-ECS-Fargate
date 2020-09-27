@@ -4,5 +4,5 @@ docker pull gkoenig/simplehttp
 ## Create repository
 aws ecr create-repository \
 --repository-name ecr-simplehttp \
---region eu-central-1 \
+--region us-east-2 \
 --image-scanning-configuration scanOnPush=true
